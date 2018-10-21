@@ -1,4 +1,4 @@
-package isp.lab1;
+package isp.lab1.student.solution1;
 
 public class Car implements Machine {
     private String vinNumber;
