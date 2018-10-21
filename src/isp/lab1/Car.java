@@ -1,6 +1,6 @@
 package isp.lab1;
 
-public class Car implements Workable {
+public class Car implements Machine {
     private String vinNumber;
     private String make;
     private String model;
@@ -78,12 +78,6 @@ public class Car implements Workable {
                 '}';
     }
 
-
-    @Override
-    public void talk(String s) {
-
-    }
-
     @Override
     public void run(int distance) {
 
@@ -113,25 +107,5 @@ public class Car implements Workable {
         else {
             System.out.println("Car is not running.");
         }
-    }
-
-    @Override
-    public void jump() {
-
-    }
-
-    @Override
-    public void hike() {
-
-    }
-
-    @Override
-    public void swim() {
-
-    }
-
-    @Override
-    public void trip() {
-
     }
 }

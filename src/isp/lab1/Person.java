@@ -1,6 +1,6 @@
 package isp.lab1;
 
-public class Person implements Workable {
+public class Person implements Organic {
     private String name;
     private int age;
 
@@ -44,18 +44,9 @@ public class Person implements Workable {
 
     }
 
-    @Override
-    public void start() {
-
-    }
 
     @Override
     public void drive(int distance) {
-
-    }
-
-    @Override
-    public void stopByBreaking() {
 
     }
 
